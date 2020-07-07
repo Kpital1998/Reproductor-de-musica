@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #FE642E;
+    color: #fafafa;
+}
+
+.container{
+    max-width: 1050vh;
+}
+
+#reproductor{
+    margin-top: 40px;
+}
+
+#reproductor .audio button{
+    background: #8181F7;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #fafafa;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#reproductor .audio button:hover{
+    transition: .4s;
+    transform: scale(1.1);
+}
+
+#reproductor .audio button i{
+    color: #fafafa;
+    font-size: 3rem;
+}
+
+#reproductor button{
+    margin: 0px 10px;
+    padding: 0px 18px;
+    color: #fafafa;
+    font-size: 20px;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
+#reproductor button:hover{
+    box-shadow: 1px 17px 19px -9px rgba(0,0,0,0.75);   
+}
+
+#reproductor .lista, #reproductor .form{
+    background: #fafafa;
+    color: #000;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 550px;
+    padding: 50px 20px;
+}
+
+#reproductor .lista ul li{
+    list-style: none;
+    text-decoration-style: none;
+    padding: 8px 0px; 
+}
